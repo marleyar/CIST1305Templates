@@ -1,0 +1,10 @@
+counter = 0
+f = open("thedata.txt")
+while counter < 5:
+    number = (input('Enter a number: '))
+    f.write(number)
+    counter += 1
+
+#open and read the file after the appending:
+f = open("thedata.txt")
+print(f.read())
